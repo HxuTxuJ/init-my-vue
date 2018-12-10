@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- 因为 index 中的代码，涉及到了 ES6 的新语法，但是浏览器不识别 -->
+    <!-- <script src="./index.js"></script> -->
+    <!-- 通过 webpack 这么一个前端构建工具，把 index.js 做了一下处理，生成了一个 main.js 的文件 -->
+
+    <!-- 当使用 html-webpack-plugin 之后，我们不再需要手动处理 main.js 的引用路径了，因为这个插件，已经帮我们自动创建了一个合适的 script ，并且，引用了 正确的路径 -->
+   <!--  <script src="../dist/main.js"></script> -->
+</head>
+
+<body>
+    <div id="app">
+       
+    </div>
+</body>
+
+</html>
